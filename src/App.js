@@ -39,8 +39,20 @@ function App() {
           height: "40px",
           backgroundColor: "darkblue",
           margin: "0 40px",
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "0, 50px",
         }}
-      ></div>
+      >
+        <div style={{ fontSize: "24px", color: "white", marginLeft: "100px" }}>
+          Home
+        </div>
+        <div style={{ fontSize: "24px", color: "white" }}>About</div>
+        <div style={{ fontSize: "24px", color: "white" }}>รายการสินค้า</div>
+        <div style={{ fontSize: "24px", color: "white", marginRight: "100px" }}>
+          Call 088-2923774
+        </div>
+      </div>
       <div
         style={{
           // margin: "0 5%",
@@ -49,7 +61,8 @@ function App() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          backgroundColor: "green",
+          alignContent: "center",
+          // backgroundColor: "green",
           flexWrap: "wrap",
         }}
       >
@@ -59,14 +72,14 @@ function App() {
             display: "flex",
             flexDirection: "column",
             alignContent: "center",
-            backgroundColor: "rebeccapurple",
+            backgroundColor: "lightgreen",
           }}
         >
           {/* <div style={{ display: "flex", justifyContent: "center" }}> */}
           <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
+            <li>รถเสียแต่ไม่รู้จะหาอะไหล่ที่ไหน</li>
+            <li>ซ่อมศูนย์เสียแพงไปไหม</li>
+            <li>ไม่ไว้ใจอะไหล่ที่อู่นำมาใช้</li>
           </ul>
           <img src="img/Slide1.JPG" alt="" />
           {/* </div> */}

@@ -1,6 +1,7 @@
 import React from "react"
 import { useEffect, useState } from "react"
 import "./App.css"
+import "./Style.css"
 // import banner from ""
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     }
     getDate()
   }, [])
+  const [counter, setCounter] = useState(0)
   return (
     <div
       style={{
@@ -68,7 +70,7 @@ function App() {
       >
         <div
           style={{
-            width: "75%",
+            width: "80%",
             display: "flex",
             flexDirection: "column",
             alignContent: "center",
@@ -81,11 +83,29 @@ function App() {
             <li>ซ่อมศูนย์เสียแพงไปไหม</li>
             <li>ไม่ไว้ใจอะไหล่ที่อู่นำมาใช้</li>
           </ul>
-          <img src="img/Slide1.JPG" alt="" />
-          {/* </div> */}
+          <img src="img/Slide1.JPG" alt="" style={{ margin: "50px 0" }} />
+          <div style={{ textAlign: "center", fontSize: "30px" }}>
+            สินค้าแนะนำ
+          </div>
+          <div
+            style={{
+              padding: "10px",
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              marginBottom: "20px",
+              background: "cyan",
+              // justifyContent: "space-between",
+              // alignContent: "space-between",
+            }}
+          >
+            <div className={"card"}></div>.<div className={"card"}></div>.
+            <div className={"card"}></div>.<div className={"card"}></div>.
+            <div className={"card"}></div>.<div className={"card"}></div>.
+            <div className={"card"}></div>.<div className={"card"}></div>.
+          </div>
         </div>
       </div>
-      {/* </div> */}
     </div>
 
     // <main>

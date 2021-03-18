@@ -1,0 +1,29 @@
+[
+  {
+    "product": [
+      {
+        "id": 1,
+        "productName": "กาวทาประเก็น",
+        "brand": "VersaChem",
+        "Model": "Mega",
+        "price": "150",
+        "catagory": {
+          "white": { "description": "White Glue", "quantity": 10 },
+          "blue": { "description": "Blue Glue", "quantity": 8 },
+          "red": { "description": "Red Glue", "quantity": 5 }
+        }
+      },
+      {
+        "id": 2,
+        "productName": "กรองเบนซิน",
+        "brand": "Nissan",
+        "Model": "Cefiro A31",
+        "price": 175,
+        "catagory": {
+          "Geneuin": { "description": "Genuine Parts", "quantity": 4 },
+          "NTN": { "description": "Brand NTN", "quantity": 7 }
+        }
+      }
+    ]
+  }
+]
